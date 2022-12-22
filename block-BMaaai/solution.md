@@ -12,3 +12,5 @@ mongoexport --db state --collection cities --out ~/Desktop/states/city.json --js
 ```
 
 ```
+mongoimport -d DB_NAME -c COLLECTION_NAME --type csv --file elections.csv(file location) --headerline(including header)
+```
